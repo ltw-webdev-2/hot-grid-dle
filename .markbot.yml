@@ -1,0 +1,44 @@
+repo: 'hot-grid-dle'
+canvasCourse: 'web-dev-2'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - google-fonts
+  - gridifier
+  - css-order-grid-main
+  - responsive-css
+  - img-flex
+  - body-margin-0
+  - border-box
+  - screenshots-all
+
+html:
+  - path: 'index.html'
+    outline: false
+    has:
+      - 'div > figure > figcaption'
+      - 'figure img[src="images/veggie-burger-1.jpg"]'
+      - 'figure img[src="images/veggie-burger-2.jpg"]'
+      - 'figure img[src="images/veggie-burger-3.jpg"]'
+    search:
+      - 'Soft veggie burger with onion, romaine, tomato, mustard and vegan cheese.'
+      - 'Traditional veggie burger on a whole grain bun topped with sprouts.'
+      - 'Black bean burger with onion & lettuce, surrounded by an oat bun.'
+      - 'unit-.+-hidden'
+
+css:
+  - path: 'css/main.css'
+    has:
+      - ['html', 'font', 'normal 100%/1.3 "Roboto Slab", serif']
+    search:
+      - 'position: relative'
+      - 'position: absolute'
+      - 'max-width: 15em'
+      - '1rem'
+      - '.5rem'
+    searchNot:
+      - 'display: none'
+      - 'visibility'
