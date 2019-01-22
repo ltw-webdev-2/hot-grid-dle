@@ -10,6 +10,7 @@ deliverables: '1 HTML file, 2 CSS files, images'
 
 - *Fork this repository.*
 - Match the layout found in the screenshots—notice how one of the grid units isn’t always visible.
+- You’ll need a little bit of CSS inside your `main.css` to make the caption look right.
 - Text can be found inside the `content.txt` file.
 - *Run it through Markbot and make sure it passes all the checks.*
 
